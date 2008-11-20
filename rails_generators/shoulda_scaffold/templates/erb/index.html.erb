@@ -19,4 +19,4 @@
   <%% end %>
 </table>
 
-<p><%%= link_to 'New <%= singular_name.humanize %>', new_<%= singular_name %>_path %></p>
+<p><%%= link_to 'New <%= singular_name.downcase %>', new_<%= singular_name %>_path %></p>
